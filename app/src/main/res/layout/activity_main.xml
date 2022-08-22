@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:elevation="4dp"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <androidx.viewpager.widget.ViewPager
+                android:id="@+id/vpMain"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        <com.tbuonomo.morphbottomnavigation.MorphBottomNavigationView
+                android:id="@+id/bottomNavigationView"
+                style="@style/BottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:backgroundTint="@color/colorPrimary"
+                app:itemIconSize="20dp"
+                app:menu="@menu/menu_bottom_navigation"
+                app:morphCornerRadius="96dp"
+                app:morphItemRadius="44dp"
+                app:morphVerticalOffset="8dp" />
+    </LinearLayout>
+    <ImageView
+            android:id="@+id/icPurchase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="80dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_purchase"
+            tools:ignore="ContentDescription" />
+    <RelativeLayout
+            android:id="@+id/fragment_container_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+</androidx.constraintlayout.widget.ConstraintLayout>

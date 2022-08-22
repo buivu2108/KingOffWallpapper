@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="id_admob_main">ca-app-pub-6547958520975485~3389693595</string>
+    <string name="id_admob_banner">ca-app-pub-6547958520975485/7254994409</string>
+    <string name="id_admob_full">ca-app-pub-6547958520975485/5877144182</string>
+    <string name="id_admob_video">ca-app-pub-6547958520975485/6807082476</string>
+    <string name="id_admob_native"></string>
+</resources>

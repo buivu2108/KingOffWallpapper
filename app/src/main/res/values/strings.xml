@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">King Off Wallpaper</string>
+    <string name="set">SET</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="image_count">%d images</string>
+    <string name="download_error">Has error when download image!</string>
+    <string name="download_ok">Download complete!</string>
+    <string name="wallpaper_set">Wallpaper Set!</string>
+    <string name="skip">LATER</string>
+    <string name="do_let_us_know_your_thoughts">Your feedback will help us refine the app!</string>
+    <string name="submit">Rate!</string>
+    <string name="please_rate_our_app">Please rate my app</string>
+    <string name="home">Home</string>
+    <string name="popular">Popular</string>
+    <string name="categories">Categories</string>
+    <string name="favorites">Favorites</string>
+    <string name="random">Random</string>
+    <string name="no_favorite_images">No Favorite images</string>
+    <string name="no_search_result">No search result!</string>
+</resources>

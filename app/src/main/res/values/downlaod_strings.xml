@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mp3_file_title_dw">Download music</string>
+
+    <string name="image_file_title_dw">Download Image</string>
+
+    <string name="pdf_file_title_dw">Download Pdf</string>
+
+    <string name="video_file_title_dw">Download Video</string>
+
+    <string name="status_downloading_dw">Downlaoding..</string>
+</resources>

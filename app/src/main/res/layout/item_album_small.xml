@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.florent37.shapeofview.shapes.RoundRectView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:shape_roundRect_bottomLeftRadius="5dp"
+        app:shape_roundRect_bottomRightRadius="5dp"
+        app:shape_roundRect_topLeftRadius="5dp"
+        app:shape_roundRect_topRightRadius="5dp"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="80dp">
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        <View
+                android:id="@+id/background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <View android:id="@+id/lineTop"
+              android:background="@color/colorWhite"
+              android:layout_marginTop="15dp"
+              android:layout_gravity="center_horizontal"
+              android:layout_width="80dp"
+              android:layout_height="2dp"/>
+
+        <View android:id="@+id/lineBottom"
+              android:background="@color/colorWhite"
+              android:layout_marginBottom="15dp"
+              android:layout_gravity="center_horizontal|bottom"
+              android:layout_width="80dp"
+              android:layout_height="2dp"/>
+        <TextView
+                android:id="@+id/tvName"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+    </FrameLayout>
+</com.github.florent37.shapeofview.shapes.RoundRectView>
